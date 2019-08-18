@@ -1,8 +1,6 @@
 import React from 'react'
 import cars from '../cars.json'
 import { Container, Paper, Chip } from '@material-ui/core';
-// import material ui components here //
-// Container, Paper, Chip //
 
 const Car = (props) => {
     const id = props.match.params.id
